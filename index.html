@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB - CSS</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:pink;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid pink;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      width:100px;
+      text-align: center;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      color:pink;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">jimin's 2019</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">plan</a></li>
+      <li><a href="2.html">trip</a></li>
+      <li><a href="3.html">book</a></li>
+    </ol>
+    <div id="article">
+        <h2>디인예/정치행정 김지민</h2>
+        <img src="map.jpg" width="25%">
+    
+      </div>
+  </div>
+  </body>
+  </html>
